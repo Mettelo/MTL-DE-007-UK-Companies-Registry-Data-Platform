@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw / generated data
+data/raw/*.json
+data/raw/**/*.json
+data/raw/*.jsonl
+data/raw/**/*.jsonl
+data/raw/*.parquet
+data/raw/**/*.parquet
+
+# Local databases
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Notebook
+.ipynb_checkpoints/
+
+# Temporary outputs
+outputs/tmp/
